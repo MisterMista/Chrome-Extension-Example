@@ -13,10 +13,10 @@ A content script is a js file that is injected into webpages by the extension. C
  - Content scripts are only ran on sites that fit the [match pattern](https://developer.chrome.com/extensions/match_patterns).
 
 ## Background Scripts
-Background scripts can do more but cannot access the current page. Message passing can be used to send data between content scripts and background scripts.
+Background scripts can do more and have access to more APIs, but they cannot access the current page. Message passing can be used to send data between content scripts and background scripts.
 
-## Browser Actions
-An extension can have an icon by the address bar which is a browser action. Your can interface with your application through the icon. In order to use this, you must set up message passing.
+## Browser Action
+An extension can have an icon by the address bar, which is a browser action. You can interface with your application through the icon. In order to use this, you must set up message passing.
 
 ## Message Passing
 Message passing allows content scripts and background scripts to communicate.
