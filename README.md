@@ -1,4 +1,6 @@
 # Chrome Extension Example
+For more detailed information, check the [Chrome extension documentation](https://developer.chrome.com/extensions/overview).
+
 In order to test a chrome extension as you develop, go to your [Chrome extensions page](chrome://extensions) ('chrome://extensions/') and select "developer mode". You can now select "Load unpacked extension" and select the directory with your 'manifest.json' file. The extension is now loaded in your browser. In order for any changes to take effect, you must click the refresh button for the extension in the extensions page.
 
 In order to load jquery, download it and load it before any js files that require it.
