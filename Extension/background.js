@@ -1,5 +1,12 @@
+console.log("background.js Loaded")
+
+//Settings for browser action badge (small area of text)
+chrome.browserAction.setBadgeText({text: "R"});
+chrome.browserAction.setBadgeBackgroundColor({color: [0, 127, 255, 255]});
+
 //Listener for browser action click
 chrome.browserAction.onClicked.addListener(function(tab) {
+
     //Sends a JSON message to the current tab.
     //The JSON data that is sent is arbitrary and can be anything
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {

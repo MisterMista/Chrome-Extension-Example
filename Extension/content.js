@@ -1,3 +1,5 @@
+console.log("content.js Loaded")
+
 //display an alert on page load
 //alert("Chrome Extension test.")
 
